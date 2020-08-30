@@ -2,29 +2,29 @@
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background: #839496;
+  background: #f2c064;
 }
 
 .correct-answer {
-  background: green;
+  background: #2d63a6;
 }
 
 .incorrect-answer {
-  background: red;
+  background: #ee5151;
 }
 
 .bird-list {
   width: 50%;
   font-size: 25px;
   padding: 0px !important;
-  border: 1px solid #839496;
+  border: 1px solid #f2c064;
 }
 
 .bird-element {
   height: 16.666%;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #839496;
+  border-bottom: 1px solid #f2c064;
   padding: 10px 0;
   padding-left: 20px;
   cursor: pointer;
@@ -86,7 +86,7 @@
 }
 
 .bird-body li:first-child {
-  border-bottom: 1px solid #839496;
+  border-bottom: 1px solid #f2c064;
 }
 
 .next-lvl {
@@ -94,7 +94,7 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  border: 1px solid #839496;
+  border: 1px solid #f2c064;
   border-radius: 0.3rem;
   margin-bottom: 20px;
   color: white;
@@ -105,7 +105,7 @@
 }
 
 .correct-answer-next-lvl {
-  background-color: #2a8247;
+  background-color: #2d63a6;
   color: white;
 }
 

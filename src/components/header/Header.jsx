@@ -5,7 +5,7 @@
 /* eslint-disable max-classes-per-file */
 import React, {Component} from 'react'
 import './style.css';
-import logo from './songbird.jpg';
+import logo from './songbird.svg';
 
 class Header extends Component {
   render() {
@@ -13,7 +13,7 @@ class Header extends Component {
       <header>
         <div className="text-primary">
           <div className="logo">
-            <img src={logo} width="350" alt="songbird_logo" />
+            <img src={logo} width="50" alt="songbird_logo" />
           </div>
           <p className="score">Score: {this.props.score}</p>
         </div>

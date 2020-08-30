@@ -11,13 +11,15 @@ class BirdQuestion extends Component {
   render() {
     const birdsData = this.props.birdsData;
     if (this.props.birdName !== '*****') {
-      this.player.audio.pause();
+      this.player.audio.current.pause();
     }
     const Player = () => (
       <AudioPlayer
         className="audio-player"
         src={birdsData[this.props.currentRound][this.props.randomNumber].audio}
-        ref={c => (this.player = c)}
+        ref={c => {
+          this.player = c
+        }}
       />
     );
     return (
